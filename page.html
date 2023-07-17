@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+   <meta author="abxzok379">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Modificateur d'apparence</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+ </head>
+ <body>
+   <h1>Modificateur d'apparence</h1>
+   <hr>
+   <br>
+   <div id="box"><p id="texte">Texte</p></div>
+   <br>
+   <hr>
+   <h2>Paramètres</h2>
+   <br>
+   <label>
+     Choisissez la couleur: <input type="color" oninput="changerCouleur()" id="inputCouleur">
+   </label>
+   <br>
+   <label>
+     Choisissez la largeur: <input type="number" oninput="changerLargeur()" id="inputLargeur">
+   </label>
+   <br>
+   <label>
+     Choisissez le radius: <input type="number" oninput="changerRadius()" id="inputRadius">
+   </label> 
+    <br><hr>
+    <form oninput="changerCaractere()"><br>
+    Choisissez le type de caractère:<br>
+    <br><br>
+      <input type="radio" id="TimesNewRoman" name="typedecaractere" value="TimesNewRoman">
+      <label for="TimesNewRoman">Times New Roman</label>
+    <br><br>
+      <input type="radio" id="Arial" name="typedecaractere" value="Arial">
+      <label for="Arial">Arial</label>
+    <br><br>
+      <input type="radio" id="CourierNew" name="typedecaractere" value="CourierNew">
+      <label for="CourierNew">Courier New</label>
+    </form><br>
+ </body>
+</html>

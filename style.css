@@ -1,0 +1,44 @@
+html, body{
+width: 100%;
+height: 100vh;
+background-color: black;
+color: white;
+font-size: 25px;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+#box{
+width: 400px;
+height: 400px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+}
+
+hr{
+color: white;
+width: 50%;
+}
+
+#inputLargeur{
+width: 40px;
+}
+
+#inputRadius{
+width: 40px;
+}
+
+label{
+text-align: center;
+}
+
+p{
+color: black;
+font-size: 30px;
+}
